@@ -1,0 +1,125 @@
+.portfolio {
+    background-image: url("https://images.unsplash.com/photo-1518546305927-5a555bb7020d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80");
+    min-height: 380px;
+    height: 100vh;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.portfolio-content table{
+    /* z-index: -1; */
+    position: absolute;
+    background-color: white;
+    color: black;
+}
+
+.portfolio-content {
+    height: 45%;
+    margin-top: 10%;
+    position: relative;
+    z-index: 1;
+    border: 2px solid #262689;
+    margin-top: 5%;
+    background: #0c182e;
+    border-radius: 15px;
+    margin: auto;
+    width: 30%;
+    padding: 45px;
+    color: white;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+h1 {
+    /* border:2px solid yellow; */
+    margin-top: -1px;
+    font-size: 2.5rem;
+}
+
+.search {
+    /* border: 2px solid red; */
+    width: 100%;
+}
+
+.btn {
+    width: 27%;
+    height: 36px;
+    font-size: 1.3rem;
+    margin-left: 10px;
+    border: 2px solid green;
+    background: rgb(108, 159, 31);
+    border-radius: 5px;
+    letter-spacing: 3px;
+}
+
+.btn:hover {
+    background-color: green;
+    border: 2px solid greenyellow;
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+}
+
+.search-box {
+    width: 68%;
+    height: 30px;
+    font-size: 1.3rem;
+}
+
+.info {
+    /* border: 2px solid yellow; */
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    margin-top: 3%;
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
+.info input {
+    width: 50%;
+    margin: 5px;
+    height: 30px;
+    font-size: 1.5rem;
+}
+
+.buy {
+    margin-top: 5%;
+}
+
+.buy-btn {
+    width: 27%;
+    height: 36px;
+    font-size: 1.3rem;
+    margin-left: 10px;
+    border: 2px solid rgb(217, 235, 14);
+    background: rgb(185, 21, 21);
+    border-radius: 8px;
+    color: white;
+}
+
+.buy-btn:hover {
+    background-color: green;
+    border: 2px solid greenyellow;
+    cursor: pointer;
+    color: white;
+}
+
+.total {
+    /* border: 2px solid yellow; */
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
+.total input {
+    width: 50%;
+    margin: 5px;
+    height: 30px;
+    font-size: 1.5rem;
+}
